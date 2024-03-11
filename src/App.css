@@ -1,3 +1,37 @@
+.title {
+  font-size: 2.5rem;
+  color: rgb(180, 1, 1);
+  background: #ffffff;
+  text-shadow: 1px 0px 1px #cccccc, 0px 1px 1px #eeeeee, 2px 1px 1px #cccccc, 1px 2px 1px #eeeeee, 3px 2px 1px #cccccc,
+    2px 3px 1px #eeeeee, 4px 3px 1px #cccccc, 3px 4px 1px #eeeeee, 5px 4px 1px #cccccc, 4px 5px 1px #eeeeee,
+    6px 5px 1px #cccccc, 5px 6px 1px #eeeeee, 7px 6px 1px #cccccc;
+}
+.button {
+  margin-top: 0.2rem;
+  color: white;
+  padding: 10px;
+  font-size: 1rem;
+  background-color: red;
+  border-radius: 50px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.button:hover {
+  transform: scale(1.7);
+  background-color: yellow;
+  color: black;
+}
+.dog {
+  border-radius: 50px;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .App {
   text-align: center;
 }
